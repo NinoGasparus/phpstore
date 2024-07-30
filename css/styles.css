@@ -1,0 +1,338 @@
+body{
+    background-color: red;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#glava{
+    background-color: rgb(0, 4, 255);
+    margin-bottom: 1vh;
+    display: flex;
+   
+    justify-content: space-between;
+}
+
+#telo{
+    background-color: lime;
+    display: flex;
+    flex-direction:row;
+    min-height:90vh;
+    
+}
+
+#filtri{
+    margin-right: 2vw;
+    background-color: rgb(225, 0, 255);    
+    width:20vw;
+}
+#main{
+    margin-right: 2vw;
+    background-color: blue;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+
+   
+}
+#add{
+    background-color: blue;
+    width: 16vw;
+
+    display: flex;
+    justify-content: center;
+}
+#noga{
+    background-color: lime;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vh;;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item {
+     
+    margin: 5px;
+    background-color: green;
+    max-width: calc(100%/3);
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+.itemImage{
+    aspect-ratio: 1/1;
+    width: 15vw;
+    align-self: center;
+}
+
+.itemDesc{
+margin-left: 2vw;
+}
+
+.itemTitle{
+    margin-left: 1vw;;
+}
+.cena{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#oglas{
+    margin-top: 3vh;
+   max-height: 300px;
+   position: fixed
+ 
+}
+
+#searchbar{
+    width: 60vw;
+   
+    background-color: red;
+  
+}
+#searchbar input{
+    width: 100%;
+}
+
+#kosarica{
+    width: 16vw;
+    height: 90vh;
+    position: fixed;
+    background-color: rgb(255, 0, 221);
+    
+    top:-90vh;
+    
+    right: 0;
+    transition: top 0.2s;
+    overflow-y: auto;   
+}
+
+#kosaraItems{
+    background-color: rgb(136, 136, 136);;
+
+}
+.itemCount{
+    background-color: red;
+    max-width:5vw;
+}
+
+.vm{
+  align-self: center;
+}
+
+.miniimg{
+   max-width: 3vw;
+   margin-right: 1vw;
+   
+}
+.basketEntry{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}      
+
+#loginPane{
+    position: fixed;
+    width: 20%;
+    height: 50%;
+    background-color: yellow;
+    top: -150%;
+    left: 40%;
+
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+
+    transition: top 0.5s;
+
+}
+#loginPane form{
+    display: flex;
+    flex-direction: column;
+}
+#orderpage{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#placeholder1{
+    margin-right: 2vw;
+    background-color: rgb(225, 0, 255);    
+    width:20vw;
+}
+#placeholder2{
+    margin-right: 2vw;
+    background-color: blue;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 3vh)
+}
+
+#placeholder3{
+    background-color: blue;
+    width: 16vw;
+
+    display: flex;
+    justify-content: center;   
+}
+
+#adminpane{
+    background-color: white;;
+    display: flex;
+    flex-direction: column;
+    min-height:95vh ;
+}
+#adminpane div:first-of-type{
+    display: flex;
+}
+
+#adminpane button{
+    width: 50vw;
+    height: 50px;
+}
+#tabcontainer{
+    display: flex;
+    flex-direction: row;
+}
+#narocilaTab{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    top: 15%;
+    background-color: cyan;
+    min-height: 80vh;
+}
+
+#artikliTab{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: cyan;
+    min-height: 80vh;
+
+    
+}
+th{background-color: red;
+    width: calc(100vw / 8);
+    
+}
+
+.itemIcon{
+    width: 10vw;
+    height: 10vw;
+   
+}
+#createItemBar{
+display: flex;
+flex-direction: column;
+}
+
+#createItemBar input {
+    width: calc(100vw/8);
+    
+}
+
+
+
+.narociloCell {
+background-color: rgb(255, 255, 255);
+
+}  
+.removeFromBasketButton{
+    margin-left: auto;
+}
+.basketEntryTextThingy{
+    background-color: red;
+}
+#headButtons{
+    background-color: rgb(255, 166, 0);
+    width: 16vw;
+    display: flex;
+    flex-direction: row;
+}
+#naslov{
+    background-color: rgb(255, 166, 0);
+    width:20vw;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+#checkoutItemContainer
+{
+    background-color: yellow;
+    width: 100%;
+    height: auto;
+    padding-top:3vh;
+    padding-bottom: 3vh;
+}
+
+.checkoutItem{
+    background-color: gray;
+    display: flex;
+    flex-direction:row;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 3px;
+    align-items: center;
+
+}
+.checkoutItemIme{
+    margin-left: 1vw;
+}
+.checkoutStevilo{
+    margin-left: 10%;
+}
+.checkoutKos{
+    margin-left: 15%;
+}
+.remButtonCheckout{
+    margin-left: auto;
+    margin-right: 1vw;
+}
+
+.midImg{
+    margin-left: 1vw;
+    width: 8vw;
+    height: 8vw;;
+}
+.checkoutTotalAmount{
+    margin-left: auto;
+}
+
+#checkoutSUMTOTAL{
+    border-top: 3px solid black;
+    margin-top:2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 15%;
+}
+
+
+#dataField{
+background-color: lime;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 1vw;
+    padding-bottom: 10%;
+}
+#dataField form{
+    display: flex;
+    flex-direction: column;
+}
